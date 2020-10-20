@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Header Section */
+header{
+    height: 69px;
+}
+
+header img{
+    height: 50px;
+    padding-left: 10px;
+}
+
