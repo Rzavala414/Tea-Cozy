@@ -8,9 +8,17 @@ body{
     text-align: center;
 }
 
+h2,
+h3,
+h4{
+    margin: 0;
+    padding: 10px;
+}
+
 a{
     color: seashell;
 }
+
 .flex-container{
     display: flex;
     justify-content: center;
@@ -18,18 +26,20 @@ a{
 }
 
 /* Header Section */
+
 header{
     width: 100%;
     height: 69px;
     position: fixed;
     border-bottom: 1px solid seashell;
     align-items: center;
+    background: black;
+    z-index: 1;
 }
 
 header img{
     height: 50px;
     padding-left: 10px;
-    justify-content: flex-start;
 }
 
 nav{
@@ -39,4 +49,30 @@ nav{
 
 nav span{
     margin: 0 8px;
+}
+
+/* Main section */
+
+.main{
+    width:1200px;
+    margin: auto;
+}
+
+/* Mission Section */
+
+#mission{
+    height: 700px;
+    background: url("./assets/img-mission-background.webp");
+    
+}
+
+#mission .content{
+    background: black;
+    width: 100%;
+    margin: auto;
+}
+
+/* Shop Section */
+#shop{
+    width: 1000px;
 }
