@@ -72,7 +72,34 @@ nav span{
     margin: auto;
 }
 
-/* Shop Section */
-#shop{
+/* Store Section */
+#store{
     width: 1000px;
+    margin: 0 auto;
+}
+
+.item img{
+    height: 200px;
+    margin: 10px;
+}
+
+.item div{
+    font-weight: bold;
+}
+
+/* Locations Section */
+
+#locations{
+    background: url("./assets/locations.webp");
+    background-position: center;
+    height: 500px;
+    align-items: center;
+}
+
+.box{
+    display: inline-flex;
+    height: 300px;
+    width: 300px;
+    background: black;
+    
 }
