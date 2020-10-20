@@ -1,13 +1,16 @@
 body{
     margin: 0;
     font-family: Helvetica, sans-serif;
-    font-size: 22px;
     color: seashell;
     background-color: black;
+    font-size: 22px;
     opacity: 0.9;
     text-align: center;
 }
 
+a{
+    color: seashell;
+}
 .flex-container{
     display: flex;
     justify-content: center;
@@ -16,11 +19,24 @@ body{
 
 /* Header Section */
 header{
+    width: 100%;
     height: 69px;
+    position: fixed;
+    border-bottom: 1px solid seashell;
+    align-items: center;
 }
 
 header img{
     height: 50px;
     padding-left: 10px;
+    justify-content: flex-start;
 }
 
+nav{
+    text-align: right;
+    flex-grow: 1;
+}
+
+nav span{
+    margin: 0 8px;
+}
