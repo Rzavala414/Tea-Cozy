@@ -78,6 +78,8 @@ nav span{
     margin: 0 auto;
 }
 
+
+
 .item img{
     height: 200px;
     margin: 10px;
@@ -90,16 +92,26 @@ nav span{
 /* Locations Section */
 
 #locations{
-    background: url("./assets/locations.webp");
-    background-position: center;
+    background-image: url("./assets/locations.webp");
     height: 500px;
-    align-items: center;
+    padding-top: 70px;
+
+  
 }
 
-.box{
-    display: inline-flex;
-    height: 300px;
-    width: 300px;
-    background: black;
-    
+#locations .flex-container{
+    margin: auto;
+    width: 1100px;
 }
+
+.location{
+    opacity: 1.0;
+    padding: 10px;
+    margin: 5px 20px;
+    background-color: black;
+    flex-basis: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
